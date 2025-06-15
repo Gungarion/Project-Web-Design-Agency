@@ -1,0 +1,120 @@
+body {
+  font-family: "Merriweather", serif;
+  margin: 50px 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  background-image: url(./assets/images/Skirk.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  text-shadow:
+  2px 2px 4px black,
+  -2px 2px 4px black,
+  2px -2px 4px black,
+  -2px -2px 4px black;
+
+}
+
+footer {
+  text-align: right;
+  color: black;
+  font-size: small;
+  text-shadow:
+  2px 2px 4px white,
+  -2px 2px 4px white,
+  2px -2px 4px white,
+  -2px -2px 4px white;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.card {
+  width: 45%;
+  background-color: rgba(0, 0, 0, 0.5); /* ✨ transparan hitam */
+  color: white; /* biar teks kelihatan */
+  padding: 1rem;
+  border-radius: 10px;
+  box-sizing: border-box;
+    text-shadow:
+  2px 2px 4px black,
+  -2px 2px 4px black,
+  2px -2px 4px black,
+  -2px -2px 4px black;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.logo {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  height: 5vw;
+  max-height: 40px;
+  width: auto;
+}
+
+.genshin-impact {
+  color: rgb(240, 215, 77);
+}
+
+  
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 20px 20px 0 20px;
+  }
+}
+
+.card a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
