@@ -7,7 +7,7 @@ body {
   background-image: url(./assets/images/Skirk.png);
   background-size: cover;
   background-repeat: no-repeat;
-  
+  background-position: center;
 }
 .main {
   flex: 1;
@@ -70,7 +70,6 @@ footer {
   position: absolute;
   top: 4px;
   left: 4px;
-  height: 5vw;
   max-height: 40px;
   width: auto;
 }
@@ -104,6 +103,9 @@ footer {
 @media (max-width: 480px) {
   h1 {
     font-size: 1.8rem;
+  }
+  .logo {
+    height: 30px;
   }
 }
 
